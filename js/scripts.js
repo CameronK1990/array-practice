@@ -15,10 +15,11 @@ $(document).ready(function(){
 
     let newArr = [];
     newArr.push(myArr[0], myArr[1], myArr[2]);
+    console.log(newArr);
 
     newArr.forEach(function(element){
-      $(ul#newList).append
-    })
+      $("ul#newList").append("<li>" + element + "</li>");
+    });
 
 
   });
